@@ -1177,13 +1177,16 @@
       "id": "src-ugc-certificates",
       "category": "education",
       "title": "UGC Public Notice on Non-Retention of Original Certificates by Higher Education Institutions",
-      "organization": "University Grants Commission (UGC), Ministry of Education, Govt. of India",
+      "organization": "University Grants Commission (UGC), Ministry of Education",
       "url": "https://www.ugc.gov.in",
       "portalName": "UGC e-Samadhan Portal",
       "portalUrl": "https://samadhaan.ugc.ac.in",
+      "description": "Statutory mandate prohibiting all Higher Education Institutions (HEIs) in India from retaining original academic certificates beyond physical verification.",
       "verified": true,
-      "lastChecked": "2025-01-15",
-      "summary": "Prohibits HEIs from retaining original academic certificates (10th/12th/Degree) beyond verification."
+      "lastVerified": "2025-02-15",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Statutory Body"
     },
     {
       "id": "src-ugc-antiragging",
@@ -1191,35 +1194,59 @@
       "title": "UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009",
       "organization": "University Grants Commission (UGC)",
       "url": "https://www.antiragging.in",
-      "portalName": "National Anti-Ragging Portal & 24x7 Helpline (1800-180-5522)",
+      "portalName": "National Anti-Ragging Portal (1800-180-5522)",
       "portalUrl": "https://www.antiragging.in",
+      "description": "Mandatory zero-tolerance regulations requiring anti-ragging committees, grievance cells, and criminal action for student harassment.",
       "verified": true,
-      "lastChecked": "2025-01-15",
-      "summary": "Mandates zero-tolerance anti-ragging committees, helpline, and criminal action for harassment."
+      "lastVerified": "2025-02-15",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Statutory Body"
+    },
+    {
+      "id": "src-rte-act-2009",
+      "category": "education",
+      "title": "Right of Children to Free and Compulsory Education (RTE) Act, 2009 (Section 17)",
+      "organization": "Ministry of Education & NCPCR",
+      "url": "https://ncpcr.gov.in",
+      "portalName": "NCPCR e-BaalNidan Portal",
+      "portalUrl": "https://ebaalnidan.nic.in",
+      "description": "Section 17 explicitly prohibits physical punishment and mental harassment of school students, mandating disciplinary inquiry against offenders.",
+      "verified": true,
+      "lastVerified": "2025-02-10",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Legislation"
     },
     {
       "id": "src-consumer-act-2019",
       "category": "consumer",
-      "title": "Consumer Protection Act, 2019 & E-Commerce Rules, 2020",
+      "title": "Consumer Protection Act, 2019 & Consumer Protection (E-Commerce) Rules, 2020",
       "organization": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food & Public Distribution",
       "url": "https://consumeraffairs.nic.in",
       "portalName": "National Consumer Helpline (NCH)",
       "portalUrl": "https://consumerhelpline.gov.in",
+      "description": "Codifies consumer rights against defective goods, deficiency of service, and unfair trade practices, mandating platform grievance officers.",
       "verified": true,
-      "lastChecked": "2025-02-01",
-      "summary": "Enforces rights against defective goods, unfair trade practices, and provides e-Daakhil filing."
+      "lastVerified": "2025-02-20",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Legislation"
     },
     {
       "id": "src-edaakhil",
       "category": "consumer",
-      "title": "e-Daakhil Portal for Online Consumer Court Case Filing",
-      "organization": "National Consumer Disputes Redressal Commission (NCDRC) & NIC",
+      "title": "e-Daakhil Online Consumer Court Case Filing System",
+      "organization": "National Consumer Disputes Redressal Commission (NCDRC) & National Informatics Centre (NIC)",
       "url": "https://edaakhil.nic.in",
-      "portalName": "e-Daakhil Consumer Court System",
+      "portalName": "e-Daakhil Consumer Court Portal",
       "portalUrl": "https://edaakhil.nic.in",
+      "description": "Official digital filing system for lodging formal consumer complaints before District, State, and National Consumer Commissions without physical court presence.",
       "verified": true,
-      "lastChecked": "2025-02-01",
-      "summary": "Enables Indian consumers to file disputes before District, State, and National Consumer Commissions online."
+      "lastVerified": "2025-02-20",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Judicial Authority"
     },
     {
       "id": "src-cybercrime-portal",
@@ -1229,9 +1256,12 @@
       "url": "https://cybercrime.gov.in",
       "portalName": "National Cyber Crime Reporting Portal",
       "portalUrl": "https://cybercrime.gov.in",
+      "description": "Centralized MHA portal for reporting cyber harassment, online extortion, identity theft (Sec 66C/66D), privacy violation (Sec 66E), and digital crimes.",
       "verified": true,
-      "lastChecked": "2025-02-10",
-      "summary": "Centralized government portal for reporting cyber harassment, online threats, financial frauds, and child sexual abuse material."
+      "lastVerified": "2025-02-22",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Government"
     },
     {
       "id": "src-cpgrams",
@@ -1241,21 +1271,27 @@
       "url": "https://pgportal.gov.in",
       "portalName": "CPGRAMS Citizen Portal",
       "portalUrl": "https://pgportal.gov.in",
+      "description": "Apex national grievance redressal portal connecting over 80+ Central Ministries, Departments, and State Governments with time-bound monitoring.",
       "verified": true,
-      "lastChecked": "2025-01-20",
-      "summary": "Citizen grievance redressal portal connecting over 80+ central ministries and state departments."
+      "lastVerified": "2025-02-18",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Government"
     },
     {
       "id": "src-rti-online",
       "category": "rti",
-      "title": "Right to Information Act, 2005 Online Portal",
+      "title": "Right to Information Act, 2005 & RTI Online Portal",
       "organization": "Department of Personnel and Training (DoPT), Govt. of India",
       "url": "https://rtionline.gov.in",
-      "portalName": "RTI Online India",
+      "portalName": "RTI Online Central Portal",
       "portalUrl": "https://rtionline.gov.in",
+      "description": "Enables Indian citizens to file RTI applications and First Appeals online to Central Public Information Officers (CPIOs).",
       "verified": true,
-      "lastChecked": "2025-01-10",
-      "summary": "Enables citizens to file RTI applications and first appeals to central public authorities online."
+      "lastVerified": "2025-02-10",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Government"
     },
     {
       "id": "src-nalsa-legalaid",
@@ -1263,11 +1299,14 @@
       "title": "Legal Services Authorities Act, 1987 & Free Legal Aid Scheme",
       "organization": "National Legal Services Authority (NALSA), Supreme Court of India",
       "url": "https://nalsa.gov.in",
-      "portalName": "NALSA Citizen Portal",
+      "portalName": "NALSA Legal Aid Portal (15100)",
       "portalUrl": "https://nalsa.gov.in",
+      "description": "Guarantees free legal counsel, legal advice, and pre-litigation Lok Adalat mediation for women, children, workers, and eligible citizens.",
       "verified": true,
-      "lastChecked": "2025-02-05",
-      "summary": "Guarantees free legal aid, legal representation, and Lok Adalat dispute settlement to eligible citizens."
+      "lastVerified": "2025-02-15",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Judicial Authority"
     },
     {
       "id": "src-rbi-cms",
@@ -1277,9 +1316,12 @@
       "url": "https://www.rbi.org.in",
       "portalName": "RBI Complaint Management System (CMS)",
       "portalUrl": "https://cms.rbi.org.in",
+      "description": "Statutory ombudsman scheme for resolving disputes with commercial banks, NBFCs, and payment gateways, featuring 72-hour customer liability protections.",
       "verified": true,
-      "lastChecked": "2025-02-12",
-      "summary": "Single window grievance redressal for bank, NBFC, and payment system complaints with 14448 support."
+      "lastVerified": "2025-02-25",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Regulator"
     },
     {
       "id": "src-model-tenancy",
@@ -1287,11 +1329,14 @@
       "title": "Model Tenancy Act & State Rent Authority Guidelines",
       "organization": "Ministry of Housing and Urban Affairs (MoHUA), Govt. of India",
       "url": "https://mohua.gov.in",
-      "portalName": "State Rent Authority & Conciliation System",
+      "portalName": "MoHUA Housing Guidelines Portal",
       "portalUrl": "https://mohua.gov.in",
+      "description": "National framework governing landlord-tenant rights, security deposit limits (max 2 months for residential), and Rent Court dispute adjudication.",
       "verified": true,
-      "lastChecked": "2025-01-18",
-      "summary": "Regulates tenancy agreements, caps security deposits, and sets clear protocols for deposit refund and rent courts."
+      "lastVerified": "2025-02-10",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Government"
     },
     {
       "id": "src-posh-act",
@@ -1301,9 +1346,12 @@
       "url": "https://wcd.nic.in",
       "portalName": "SHe-Box (Sexual Harassment Electronic Box)",
       "portalUrl": "https://shebox.wcd.gov.in",
+      "description": "Mandatory statutory framework requiring every workplace with 10+ employees to constitute an Internal Committee (IC) to adjudicate complaints within 90 days.",
       "verified": true,
-      "lastChecked": "2025-02-01",
-      "summary": "Mandatory Internal Committee (IC) in every establishment, grievance lodging, and inquiry protocols."
+      "lastVerified": "2025-02-12",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Legislation"
     },
     {
       "id": "src-senior-citizens-act",
@@ -1311,23 +1359,29 @@
       "title": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
       "organization": "Ministry of Social Justice and Empowerment, Govt. of India",
       "url": "https://socialjustice.gov.in",
-      "portalName": "Elderline (14567) Senior Citizen Portal",
+      "portalName": "Elderline National Portal (14567)",
       "portalUrl": "https://elderline.dosje.gov.in",
+      "description": "Statutory provisions allowing senior citizens to claim monthly maintenance and apply before SDM Tribunal to declare property transfers void in case of neglect.",
       "verified": true,
-      "lastChecked": "2025-01-25",
-      "summary": "Empowers senior citizens to claim monthly maintenance and apply before SDM Tribunal to cancel gift deeds in case of neglect."
+      "lastVerified": "2025-02-14",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Legislation"
     },
     {
       "id": "src-epfo-grievance",
       "category": "employment",
-      "title": "Employees Provident Fund & Miscellaneous Provisions Act, 1952",
+      "title": "Employees’ Provident Funds and Miscellaneous Provisions Act, 1952 & EPFiGMS",
       "organization": "Employees’ Provident Fund Organisation (EPFO), Ministry of Labour",
       "url": "https://www.epfindia.gov.in",
       "portalName": "EPFiGMS Grievance Management System",
       "portalUrl": "https://epfigms.gov.in",
+      "description": "Statutory complaint mechanism for delayed EPF settlements, pension issues, and employer non-deposit of deducted provident funds.",
       "verified": true,
-      "lastChecked": "2025-02-15",
-      "summary": "Online registration of EPF settlement, transfer, pension, and employer non-deposit complaints."
+      "lastVerified": "2025-02-22",
+      "jurisdiction": "India",
+      "state": "",
+      "sourceType": "Statutory Body"
     },
     {
       "id": "src_1790257999064",

@@ -1,4 +1,4 @@
-import { spawn } from 'child_process';
+import { spawn, execSync } from 'child_process';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -24,10 +24,23 @@ const clientProcess = spawn(npmCmd, ['--prefix', 'client', 'run', 'dev'], {
   cwd: __dirname
 });
 
+const killProcessTree = (proc) => {
+  if (!proc || !proc.pid) return;
+  if (isWindows) {
+    try {
+      execSync(`taskkill /pid ${proc.pid} /T /F`, { stdio: 'ignore' });
+    } catch {}
+  } else {
+    try {
+      proc.kill('SIGTERM');
+    } catch {}
+  }
+};
+
 const cleanup = () => {
   console.log('\n\x1b[33m%s\x1b[0m', 'Shutting down NyayaGuide AI services...');
-  serverProcess.kill();
-  clientProcess.kill();
+  killProcessTree(serverProcess);
+  killProcessTree(clientProcess);
   process.exit();
 };
 

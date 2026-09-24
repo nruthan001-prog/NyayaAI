@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { db } from '../db.js';
+import { renderSourcesHtml } from '../utils/htmlViews.js';
 
 export const sourcesRouter = Router();
 
@@ -11,8 +12,14 @@ const ADMIN_SECRET = process.env.ADMIN_SECRET || 'nyaya_admin_secret';
  */
 sourcesRouter.get('/', (req, res) => {
   try {
-    const { category, q } = req.query;
+    const { category, q, format } = req.query;
     const sources = db.getSources(category || null, q || '');
+
+    // Return human-friendly styled HTML view if accessed directly in a browser
+    if (req.headers.accept?.includes('text/html') && format !== 'json') {
+      return res.send(renderSourcesHtml({ sources, count: sources.length }));
+    }
+
     return res.json({ sources, count: sources.length });
   } catch (error) {
     return res.status(500).json({ error: error.message });

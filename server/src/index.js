@@ -8,6 +8,7 @@ import { consultationRouter } from './routes/consultation.js';
 import { conversationsRouter } from './routes/conversations.js';
 import { sourcesRouter } from './routes/sources.js';
 import { metaRouter } from './routes/meta.js';
+import { renderHealthHtml } from './utils/htmlViews.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -46,6 +47,11 @@ const RATE_LIMIT_WINDOW_MS = 60 * 1000; // 1 minute
 const MAX_REQUESTS_PER_WINDOW = 60;
 
 app.use((req, res, next) => {
+  // Always allow health checks, root, and metadata probes without rate limiting
+  if (req.path === '/api/health' || req.path === '/' || req.path.startsWith('/api/meta')) {
+    return next();
+  }
+
   const ip = req.ip || req.socket?.remoteAddress || 'unknown';
   const now = Date.now();
   
@@ -90,21 +96,42 @@ app.use('/api/meta', metaRouter);
 
 // Health & System Info Endpoint
 app.get('/api/health', (req, res) => {
-  res.json({
+  const healthData = {
     status: 'online',
     service: 'NyayaGuide AI Backend Service',
     tagline: 'Know Your Rights. Know Your Next Step.',
     timestamp: new Date().toISOString(),
     aiEngine: process.env.AI_API_KEY ? 'Gemini Augmented Grounded RAG' : 'Curated Official Statutory Knowledge Base',
     version: '1.1.0'
-  });
+  };
+
+  // If accessed directly from browser address bar without ?format=json
+  if (req.headers.accept?.includes('text/html') && req.query.format !== 'json') {
+    return res.send(renderHealthHtml({ ...healthData, port: PORT }));
+  }
+
+  return res.json(healthData);
 });
 
-// Root friendly response
+// Root friendly response (HTML dashboard in browser, JSON for APIs)
 app.get('/', (req, res) => {
+  if (req.headers.accept?.includes('text/html') && req.query.format !== 'json') {
+    return res.send(renderHealthHtml({
+      status: 'online',
+      service: 'NyayaGuide AI Backend API',
+      tagline: 'Know Your Rights. Know Your Next Step.',
+      timestamp: new Date().toISOString(),
+      aiEngine: process.env.AI_API_KEY ? 'Gemini Augmented Grounded RAG' : 'Curated Official Statutory Knowledge Base',
+      version: '1.1.0',
+      port: PORT
+    }));
+  }
+
   res.json({
     message: '⚖️ NyayaGuide AI API Service is running.',
-    documentation: 'Access endpoints under /api/'
+    documentation: 'Access endpoints under /api/',
+    health: `http://localhost:${PORT}/api/health`,
+    sources: `http://localhost:${PORT}/api/sources`
   });
 });
 
@@ -119,9 +146,12 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal Server Error', message: err.message });
 });
 
-app.listen(PORT, () => {
+const HOST = process.env.HOST || '0.0.0.0';
+
+app.listen(PORT, HOST, () => {
   console.log(`\n======================================================`);
   console.log(`⚖️  NyayaGuide AI Backend listening on http://localhost:${PORT}`);
+  console.log(`🌐  Dual-Stack Binding: http://127.0.0.1:${PORT}`);
   console.log(`📋  Health Check: http://localhost:${PORT}/api/health`);
   console.log(`======================================================\n`);
 });
