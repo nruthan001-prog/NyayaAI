@@ -9,6 +9,28 @@
   ],
   "conversations": [
     {
+      "id": "conv_1790573446899_0gkdj",
+      "user_id": "user-default",
+      "title": "i got molested in a bus",
+      "category": "other",
+      "state": "",
+      "district": "",
+      "is_saved": false,
+      "created_at": "2026-09-28T05:30:46.899Z",
+      "updated_at": "2026-09-28T05:30:46.932Z"
+    },
+    {
+      "id": "conv_1790572273399_nnebo",
+      "user_id": "user-default",
+      "title": "My college is refusing to return my original ce...",
+      "category": "other",
+      "state": "",
+      "district": "",
+      "is_saved": false,
+      "created_at": "2026-09-28T05:11:13.399Z",
+      "updated_at": "2026-09-28T05:14:36.586Z"
+    },
+    {
       "id": "conv_1790258435195_5nnka",
       "user_id": "user-default",
       "title": "How do I make chocolate cake? Tell me the recipe.",
@@ -209,6 +231,62 @@
       "role": "assistant",
       "content": "NyayaGuide AI is exclusively designed to provide guidance on Indian citizen rights, legal frameworks, consumer protection, education grievances, cyber security, and government service procedures. Your query appears to be unrelated to a civic or legal matter.",
       "created_at": "2026-09-24T14:00:35.206Z"
+    },
+    {
+      "id": "msg_1790572273404_sxwj",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "role": "user",
+      "content": "My college is refusing to return my original certificates. What can I do?",
+      "created_at": "2026-09-28T05:11:13.404Z"
+    },
+    {
+      "id": "msg_1790572273467_uhsp",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "role": "assistant",
+      "content": "A student is facing refusal by a college or university to return original educational certificates (10th/12th marksheets, Degree, Transfer Certificate). Under official UGC regulations, retaining original documents beyond instantaneous physical verification is impermissible.",
+      "created_at": "2026-09-28T05:11:13.467Z"
+    },
+    {
+      "id": "msg_1790572437160_apuy",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "role": "user",
+      "content": "Which Indian State or Union Territory does this issue relate to?: Karnataka",
+      "created_at": "2026-09-28T05:13:57.160Z"
+    },
+    {
+      "id": "msg_1790572437181_djqf",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "role": "assistant",
+      "content": "A student is facing refusal by a college or university to return original educational certificates (10th/12th marksheets, Degree, Transfer Certificate). Under official UGC regulations, retaining original documents beyond instantaneous physical verification is impermissible.",
+      "created_at": "2026-09-28T05:13:57.181Z"
+    },
+    {
+      "id": "msg_1790572476561_csyy",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "role": "user",
+      "content": "I bought a product online and the company refused my refund.",
+      "created_at": "2026-09-28T05:14:36.561Z"
+    },
+    {
+      "id": "msg_1790572476586_2nb3",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "role": "assistant",
+      "content": "A consumer purchased a product or service that was delivered defective, damaged, or not as described, but the merchant or platform refuses to refund or honour the statutory warranty.",
+      "created_at": "2026-09-28T05:14:36.586Z"
+    },
+    {
+      "id": "msg_1790573446907_yced",
+      "conversation_id": "conv_1790573446899_0gkdj",
+      "role": "user",
+      "content": "i got molested in a bus",
+      "created_at": "2026-09-28T05:30:46.907Z"
+    },
+    {
+      "id": "msg_1790573446932_f89p",
+      "conversation_id": "conv_1790573446899_0gkdj",
+      "role": "assistant",
+      "content": "A student is experiencing persistent public humiliation, verbal abuse, or harassment by a teacher or faculty member. Indian educational and child rights frameworks strictly disallow mental harassment and corporal punishment.",
+      "created_at": "2026-09-28T05:30:46.932Z"
     }
   ],
   "guidance": [
@@ -1170,6 +1248,833 @@
         "generated_by": "curated-statutory-engine"
       },
       "created_at": "2026-09-24T14:00:35.203Z"
+    },
+    {
+      "id": "guide_1790572273463_64rh",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "category": "education",
+      "summary": "A student is facing refusal by a college or university to return original educational certificates (10th/12th marksheets, Degree, Transfer Certificate). Under official UGC regulations, retaining original documents beyond instantaneous physical verification is impermissible.",
+      "data": {
+        "id": "edu_college_certificates",
+        "category": "education",
+        "keywords": [
+          "certificate",
+          "certificates",
+          "original",
+          "marksheet",
+          "withholding",
+          "withheld",
+          "college",
+          "university",
+          "refusing to return",
+          "tc",
+          "transfer certificate",
+          "degree",
+          "documents held"
+        ],
+        "title": "Withholding of Original Academic Certificates by Higher Educational Institutions",
+        "summary": "A student is facing refusal by a college or university to return original educational certificates (10th/12th marksheets, Degree, Transfer Certificate). Under official UGC regulations, retaining original documents beyond instantaneous physical verification is impermissible.",
+        "possible_rights_or_rules": [
+          {
+            "rule": "UGC Notification on Verification and Non-Retention of Original Certificates (2018)",
+            "description": "Specifies that higher education institutions may only physically verify original documents in the student’s presence and must return them immediately without holding them custody.",
+            "cautionary_note": "Institutions may pursue legitimate fee recovery through ordinary institutional or civil channels, but holding educational documents hostage is explicitly disbarred by UGC."
+          },
+          {
+            "rule": "UGC (Redress of Grievances of Students) Regulations, 2023",
+            "description": "Requires every college to maintain an active Student Grievance Redressal Committee (SGRC) and universities to appoint an Ombudsperson for time-bound resolution.",
+            "cautionary_note": "A student should keep copies of written submissions and formal postal or email receipts."
+          }
+        ],
+        "immediate_actions": [
+          {
+            "step": 1,
+            "title": "Draft a Formal Written Representation",
+            "description": "Submit an application to the College Principal/Registrar demanding immediate return of original certificates, citing UGC Regulations 2018. Obtain a stamped acknowledgement copy or send via Registered Post AD.",
+            "priority": "High"
+          },
+          {
+            "step": 2,
+            "title": "Preserve All Fee and Admission Receipts",
+            "description": "Compile payment receipts, no-objection certificates (NOCs) from lab/library, and admission letters demonstrating your bonafide status.",
+            "priority": "High"
+          },
+          {
+            "step": 3,
+            "title": "Lodge Grievance on UGC e-Samadhan",
+            "description": "If the institution fails to return documents within 7 working days, register a formal complaint on the official UGC e-Samadhan Portal (samadhaan.ugc.ac.in).",
+            "priority": "High"
+          },
+          {
+            "step": 4,
+            "title": "Consider Legal Aid or Consumer Representation",
+            "description": "If urgently required for higher education or employment, visit the District Legal Services Authority (DLSA) for free assistance or consider issuing a formal legal notice.",
+            "priority": "Medium"
+          }
+        ],
+        "authority": [
+          {
+            "name": "College Principal / Registrar / Student Grievance Redressal Committee (SGRC)",
+            "role": "Primary institutional custodian responsible for records and immediate document release.",
+            "portal": "College Administrative Office",
+            "url": "",
+            "contact_note": "Approach in person during administrative office hours or send letter via Registered Post AD.",
+            "how_to_approach": "Submit a signed representation demanding receipt. Keep a photo/copy of the stamped receiving seal."
+          },
+          {
+            "name": "University Ombudsperson / Vice-Chancellor Office",
+            "role": "Statutory appellate authority overseeing affiliated colleges.",
+            "portal": "Affiliating University Grievance Cell",
+            "url": "",
+            "contact_note": "Contact information available on the affiliating university website under Student Grievance Portal.",
+            "how_to_approach": "File formal representation if the college Principal fails to release certificates within 7 days."
+          },
+          {
+            "name": "University Grants Commission (UGC) e-Samadhan",
+            "role": "Apex national higher education regulatory body.",
+            "portal": "UGC e-Samadhan Portal",
+            "url": "https://samadhaan.ugc.ac.in",
+            "contact_note": "UGC Toll-Free: 1800-111-656",
+            "how_to_approach": "Submit an online complaint attaching the college refusal letter and fee clearance documents."
+          }
+        ],
+        "documents": [
+          {
+            "id": "doc-1",
+            "name": "Original Admission & Fee Payment Receipts",
+            "purpose": "Evidences bonafide enrolment and current fee clearance status",
+            "is_essential": true
+          },
+          {
+            "id": "doc-2",
+            "name": "Formal Written Demand Letter with Stamped Seal",
+            "purpose": "Constitutes proof of demand and date of institutional refusal",
+            "is_essential": true
+          },
+          {
+            "id": "doc-3",
+            "name": "Copy of Relevant UGC Circular on Certificate Retention",
+            "purpose": "Attached to notice to alert college administration of statutory violation",
+            "is_essential": false
+          },
+          {
+            "id": "doc-4",
+            "name": "Offer Letter or Higher Admission Proof (if applicable)",
+            "purpose": "Demonstrates immediate urgency or career jeopardy if urgent relief is sought",
+            "is_essential": false
+          }
+        ],
+        "escalation": [
+          {
+            "tier": 1,
+            "level": "Institutional Authority",
+            "authority": "College Principal / SGRC Committee",
+            "condition": "Initial application submitted",
+            "next_step": "Wait 7 days for release of certificates"
+          },
+          {
+            "tier": 2,
+            "level": "University Oversight",
+            "authority": "University Ombudsperson & Registrar",
+            "condition": "No response or refusal after 7 days",
+            "next_step": "Submit formal grievance petition with acknowledgement copy"
+          },
+          {
+            "tier": 3,
+            "level": "Statutory Regulator",
+            "authority": "UGC e-Samadhan & State Higher Education Dept",
+            "condition": "University/College fails to comply within 15 days",
+            "next_step": "File regulatory complaint on UGC e-Samadhan (samadhaan.ugc.ac.in)"
+          },
+          {
+            "tier": 4,
+            "level": "Legal Remedy",
+            "authority": "District Consumer Forum or High Court Writ",
+            "condition": "Urgent career jeopardy or bad-faith detention",
+            "next_step": "Engage legal counsel or NALSA/DLSA for emergency writ petition (Mandamus)"
+          }
+        ],
+        "sources": [
+          {
+            "title": "UGC Public Notice on Non-Retention of Original Certificates",
+            "organization": "University Grants Commission (UGC)",
+            "url": "https://samadhaan.ugc.ac.in",
+            "verified": true,
+            "category": "education"
+          },
+          {
+            "title": "UGC Student Grievance Redressal Regulations",
+            "organization": "Ministry of Education, Govt. of India",
+            "url": "https://www.ugc.gov.in",
+            "verified": true,
+            "category": "education"
+          },
+          {
+            "title": "UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009",
+            "organization": "University Grants Commission (UGC)",
+            "url": "https://www.antiragging.in",
+            "verified": true,
+            "category": "education",
+            "sourceType": "Statutory Body"
+          },
+          {
+            "title": "Right of Children to Free and Compulsory Education (RTE) Act, 2009 (Section 17)",
+            "organization": "Ministry of Education & NCPCR",
+            "url": "https://ncpcr.gov.in",
+            "verified": true,
+            "category": "education",
+            "sourceType": "Legislation"
+          }
+        ],
+        "warning": "NyayaGuide AI provides general civic and educational information. If withholding prevents timely university enrollment or joining employment, consult a qualified advocate promptly to evaluate filing an emergency Writ Petition (Mandamus) before the High Court.",
+        "guided_questions": [
+          {
+            "id": "state_selection",
+            "question": "Which Indian State or Union Territory does this issue relate to?",
+            "options": [
+              "Karnataka",
+              "Maharashtra",
+              "Delhi",
+              "Tamil Nadu",
+              "Uttar Pradesh",
+              "Other State"
+            ]
+          },
+          {
+            "id": "has_written_proof",
+            "question": "Do you have written proof of your request (e.g. an email, letter with receiving seal, or fee receipt)?",
+            "options": [
+              "Yes, I have written proof / email",
+              "No, requests were verbal only",
+              "I have fee receipts only"
+            ]
+          }
+        ],
+        "complaint_draft_template": "Date: 28 September 2026\n\nTo,\nThe Grievance Redressal Officer / Head of Office,\nCollege Principal / Registrar / Student Grievance Redressal Committee (SGRC),\nYour District, Your State\n\nSUBJECT: Formal Representation & Grievance Regarding Withholding of Original Academic Certificates by Higher Educational Institutions\n\nRespected Sir/Madam,\n\nI am writing this formal representation to bring to your urgent attention a serious grievance that requires your immediate administrative intervention.\n\n1. BACKGROUND & STATEMENT OF FACTS:\nMy college is refusing to return my original certificates. What can I do?\n\n2. STATUTORY RIGHTS & PROCEDURAL ENTITLEMENT:\nUnder the applicable rules and guidelines established by the Government of India and statutory authorities governing this matter, I am entitled to fair, time-bound consideration and redressal. The actions or omissions in question cause substantial hardship, mental agony, and disruption.\n\n3. PRESERVATION OF EVIDENCE:\nI have maintained all relevant supporting documents, receipts, communications, and evidence in safe custody, copies of which are attached herewith for your ready perusal.\n\n4. RELIEF SOUGHT:\nIn light of the above facts, I respectfully request your good office to:\n  a) Take immediate cognizance of this grievance;\n  b) Initiate appropriate inquiry and grant the necessary relief/documents/refund without further delay;\n  c) Issue a formal written acknowledgement and decision within 7 working days.\n\nKindly note that should this matter remain unaddressed within the stipulated time, I reserve the statutory right to escalate this complaint to the appropriate Appellate Authority, Ombudsman, and the District Legal Services Authority / Consumer Commission.\n\nThanking you,\n\nYours sincerely,\n\n___________________________\n[Complainant Name]\n[Address / Contact Number]\n[Email Address]\n\nEnclosures:\n1. Proof of Identity & Address\n2. Copy of Receipts / Communications\n3. Relevant Supporting Evidence",
+        "emergency_alert": null,
+        "knowledge_source": "Curated Official Statutory Knowledge Base",
+        "generated_by": "curated-statutory-engine"
+      },
+      "created_at": "2026-09-28T05:11:13.463Z"
+    },
+    {
+      "id": "guide_1790572437177_4vmb",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "category": "education",
+      "summary": "A student is facing refusal by a college or university to return original educational certificates (10th/12th marksheets, Degree, Transfer Certificate). Under official UGC regulations, retaining original documents beyond instantaneous physical verification is impermissible.",
+      "data": {
+        "id": "edu_college_certificates",
+        "category": "education",
+        "keywords": [
+          "certificate",
+          "certificates",
+          "original",
+          "marksheet",
+          "withholding",
+          "withheld",
+          "college",
+          "university",
+          "refusing to return",
+          "tc",
+          "transfer certificate",
+          "degree",
+          "documents held"
+        ],
+        "title": "Withholding of Original Academic Certificates by Higher Educational Institutions",
+        "summary": "A student is facing refusal by a college or university to return original educational certificates (10th/12th marksheets, Degree, Transfer Certificate). Under official UGC regulations, retaining original documents beyond instantaneous physical verification is impermissible.",
+        "possible_rights_or_rules": [
+          {
+            "rule": "UGC Notification on Verification and Non-Retention of Original Certificates (2018)",
+            "description": "Specifies that higher education institutions may only physically verify original documents in the student’s presence and must return them immediately without holding them custody.",
+            "cautionary_note": "Institutions may pursue legitimate fee recovery through ordinary institutional or civil channels, but holding educational documents hostage is explicitly disbarred by UGC."
+          },
+          {
+            "rule": "UGC (Redress of Grievances of Students) Regulations, 2023",
+            "description": "Requires every college to maintain an active Student Grievance Redressal Committee (SGRC) and universities to appoint an Ombudsperson for time-bound resolution.",
+            "cautionary_note": "A student should keep copies of written submissions and formal postal or email receipts."
+          }
+        ],
+        "immediate_actions": [
+          {
+            "step": 1,
+            "title": "Draft a Formal Written Representation",
+            "description": "Submit an application to the College Principal/Registrar demanding immediate return of original certificates, citing UGC Regulations 2018. Obtain a stamped acknowledgement copy or send via Registered Post AD.",
+            "priority": "High"
+          },
+          {
+            "step": 2,
+            "title": "Preserve All Fee and Admission Receipts",
+            "description": "Compile payment receipts, no-objection certificates (NOCs) from lab/library, and admission letters demonstrating your bonafide status.",
+            "priority": "High"
+          },
+          {
+            "step": 3,
+            "title": "Lodge Grievance on UGC e-Samadhan",
+            "description": "If the institution fails to return documents within 7 working days, register a formal complaint on the official UGC e-Samadhan Portal (samadhaan.ugc.ac.in).",
+            "priority": "High"
+          },
+          {
+            "step": 4,
+            "title": "Consider Legal Aid or Consumer Representation",
+            "description": "If urgently required for higher education or employment, visit the District Legal Services Authority (DLSA) for free assistance or consider issuing a formal legal notice.",
+            "priority": "Medium"
+          }
+        ],
+        "authority": [
+          {
+            "name": "College Principal / Registrar / Student Grievance Redressal Committee (SGRC)",
+            "role": "Primary institutional custodian responsible for records and immediate document release.",
+            "portal": "College Administrative Office",
+            "url": "",
+            "contact_note": "Approach in person during administrative office hours or send letter via Registered Post AD.",
+            "how_to_approach": "Submit a signed representation demanding receipt. Keep a photo/copy of the stamped receiving seal."
+          },
+          {
+            "name": "University Ombudsperson / Vice-Chancellor Office",
+            "role": "Statutory appellate authority overseeing affiliated colleges.",
+            "portal": "Affiliating University Grievance Cell",
+            "url": "",
+            "contact_note": "Contact information available on the affiliating university website under Student Grievance Portal.",
+            "how_to_approach": "File formal representation if the college Principal fails to release certificates within 7 days."
+          },
+          {
+            "name": "University Grants Commission (UGC) e-Samadhan",
+            "role": "Apex national higher education regulatory body.",
+            "portal": "UGC e-Samadhan Portal",
+            "url": "https://samadhaan.ugc.ac.in",
+            "contact_note": "UGC Toll-Free: 1800-111-656",
+            "how_to_approach": "Submit an online complaint attaching the college refusal letter and fee clearance documents."
+          }
+        ],
+        "documents": [
+          {
+            "id": "doc-1",
+            "name": "Original Admission & Fee Payment Receipts",
+            "purpose": "Evidences bonafide enrolment and current fee clearance status",
+            "is_essential": true
+          },
+          {
+            "id": "doc-2",
+            "name": "Formal Written Demand Letter with Stamped Seal",
+            "purpose": "Constitutes proof of demand and date of institutional refusal",
+            "is_essential": true
+          },
+          {
+            "id": "doc-3",
+            "name": "Copy of Relevant UGC Circular on Certificate Retention",
+            "purpose": "Attached to notice to alert college administration of statutory violation",
+            "is_essential": false
+          },
+          {
+            "id": "doc-4",
+            "name": "Offer Letter or Higher Admission Proof (if applicable)",
+            "purpose": "Demonstrates immediate urgency or career jeopardy if urgent relief is sought",
+            "is_essential": false
+          }
+        ],
+        "escalation": [
+          {
+            "tier": 1,
+            "level": "Institutional Authority",
+            "authority": "College Principal / SGRC Committee",
+            "condition": "Initial application submitted",
+            "next_step": "Wait 7 days for release of certificates"
+          },
+          {
+            "tier": 2,
+            "level": "University Oversight",
+            "authority": "University Ombudsperson & Registrar",
+            "condition": "No response or refusal after 7 days",
+            "next_step": "Submit formal grievance petition with acknowledgement copy"
+          },
+          {
+            "tier": 3,
+            "level": "Statutory Regulator",
+            "authority": "UGC e-Samadhan & State Higher Education Dept",
+            "condition": "University/College fails to comply within 15 days",
+            "next_step": "File regulatory complaint on UGC e-Samadhan (samadhaan.ugc.ac.in)"
+          },
+          {
+            "tier": 4,
+            "level": "Legal Remedy",
+            "authority": "District Consumer Forum or High Court Writ",
+            "condition": "Urgent career jeopardy or bad-faith detention",
+            "next_step": "Engage legal counsel or NALSA/DLSA for emergency writ petition (Mandamus)"
+          }
+        ],
+        "sources": [
+          {
+            "title": "UGC Public Notice on Non-Retention of Original Certificates",
+            "organization": "University Grants Commission (UGC)",
+            "url": "https://samadhaan.ugc.ac.in",
+            "verified": true,
+            "category": "education"
+          },
+          {
+            "title": "UGC Student Grievance Redressal Regulations",
+            "organization": "Ministry of Education, Govt. of India",
+            "url": "https://www.ugc.gov.in",
+            "verified": true,
+            "category": "education"
+          },
+          {
+            "title": "UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009",
+            "organization": "University Grants Commission (UGC)",
+            "url": "https://www.antiragging.in",
+            "verified": true,
+            "category": "education",
+            "sourceType": "Statutory Body"
+          },
+          {
+            "title": "Right of Children to Free and Compulsory Education (RTE) Act, 2009 (Section 17)",
+            "organization": "Ministry of Education & NCPCR",
+            "url": "https://ncpcr.gov.in",
+            "verified": true,
+            "category": "education",
+            "sourceType": "Legislation"
+          }
+        ],
+        "warning": "NyayaGuide AI provides general civic and educational information. If withholding prevents timely university enrollment or joining employment, consult a qualified advocate promptly to evaluate filing an emergency Writ Petition (Mandamus) before the High Court.",
+        "guided_questions": [
+          {
+            "id": "state_selection",
+            "question": "Which Indian State or Union Territory does this issue relate to?",
+            "options": [
+              "Karnataka",
+              "Maharashtra",
+              "Delhi",
+              "Tamil Nadu",
+              "Uttar Pradesh",
+              "Other State"
+            ]
+          },
+          {
+            "id": "has_written_proof",
+            "question": "Do you have written proof of your request (e.g. an email, letter with receiving seal, or fee receipt)?",
+            "options": [
+              "Yes, I have written proof / email",
+              "No, requests were verbal only",
+              "I have fee receipts only"
+            ]
+          }
+        ],
+        "complaint_draft_template": "Date: 28 September 2026\n\nTo,\nThe Grievance Redressal Officer / Head of Office,\nCollege Principal / Registrar / Student Grievance Redressal Committee (SGRC),\nYour District, Your State\n\nSUBJECT: Formal Representation & Grievance Regarding Withholding of Original Academic Certificates by Higher Educational Institutions\n\nRespected Sir/Madam,\n\nI am writing this formal representation to bring to your urgent attention a serious grievance that requires your immediate administrative intervention.\n\n1. BACKGROUND & STATEMENT OF FACTS:\nWhich Indian State or Union Territory does this issue relate to?: Karnataka\n\n2. STATUTORY RIGHTS & PROCEDURAL ENTITLEMENT:\nUnder the applicable rules and guidelines established by the Government of India and statutory authorities governing this matter, I am entitled to fair, time-bound consideration and redressal. The actions or omissions in question cause substantial hardship, mental agony, and disruption.\n\n3. PRESERVATION OF EVIDENCE:\nI have maintained all relevant supporting documents, receipts, communications, and evidence in safe custody, copies of which are attached herewith for your ready perusal.\n\n4. RELIEF SOUGHT:\nIn light of the above facts, I respectfully request your good office to:\n  a) Take immediate cognizance of this grievance;\n  b) Initiate appropriate inquiry and grant the necessary relief/documents/refund without further delay;\n  c) Issue a formal written acknowledgement and decision within 7 working days.\n\nKindly note that should this matter remain unaddressed within the stipulated time, I reserve the statutory right to escalate this complaint to the appropriate Appellate Authority, Ombudsman, and the District Legal Services Authority / Consumer Commission.\n\nThanking you,\n\nYours sincerely,\n\n___________________________\n[Complainant Name]\n[Address / Contact Number]\n[Email Address]\n\nEnclosures:\n1. Proof of Identity & Address\n2. Copy of Receipts / Communications\n3. Relevant Supporting Evidence",
+        "emergency_alert": null,
+        "knowledge_source": "Curated Official Statutory Knowledge Base",
+        "generated_by": "curated-statutory-engine"
+      },
+      "created_at": "2026-09-28T05:13:57.177Z"
+    },
+    {
+      "id": "guide_1790572476580_jtii",
+      "conversation_id": "conv_1790572273399_nnebo",
+      "category": "consumer",
+      "summary": "A consumer purchased a product or service that was delivered defective, damaged, or not as described, but the merchant or platform refuses to refund or honour the statutory warranty.",
+      "data": {
+        "id": "consumer_defective_refund",
+        "category": "consumer",
+        "keywords": [
+          "product",
+          "online",
+          "refund",
+          "company",
+          "refusing",
+          "refusing to refund",
+          "defective",
+          "damaged",
+          "ecommerce",
+          "amazon",
+          "flipkart",
+          "order",
+          "seller",
+          "return window",
+          "warranty",
+          "money back"
+        ],
+        "title": "Refusal of Refund or Replacement for Defective Product / E-Commerce Purchase",
+        "summary": "A consumer purchased a product or service that was delivered defective, damaged, or not as described, but the merchant or platform refuses to refund or honour the statutory warranty.",
+        "possible_rights_or_rules": [
+          {
+            "rule": "Consumer Protection Act, 2019 (Sections 2(47), 35, 84-87: Product Liability & Unfair Trade Practice)",
+            "description": "Guarantees the Right to be Protected against hazardous goods, Right to be Informed about quality/price, and Right to Seek Redressal against unfair trade practices or defective goods.",
+            "cautionary_note": "Platforms cannot disclaim liability if they facilitated payment and guaranteed fulfillment under the Consumer Protection Act."
+          },
+          {
+            "rule": "Consumer Protection (E-Commerce) Rules, 2020",
+            "description": "Mandates every e-commerce platform to acknowledge consumer complaints within 48 hours and resolve them within 1 month, prohibiting unilateral cancellation charges post-order confirmation.",
+            "cautionary_note": "Merchants cannot impose blanket \"no refund\" policies on inherently defective or damaged goods."
+          }
+        ],
+        "immediate_actions": [
+          {
+            "step": 1,
+            "title": "Preserve Physical and Digital Evidence",
+            "description": "Take high-resolution photographs and unboxing video showing the defect, serial number, and shipping label. Keep all original packaging.",
+            "priority": "High"
+          },
+          {
+            "step": 2,
+            "title": "Send Written Notice to the Nodal Grievance Officer",
+            "description": "Locate the mandatory \"Grievance Officer\" details on the platform’s website. Send a formal email detailing the order ID, defect, and demanding refund/replacement within 7 days.",
+            "priority": "High"
+          },
+          {
+            "step": 3,
+            "title": "Lodge Grievance on National Consumer Helpline (NCH)",
+            "description": "Register on consumerhelpline.gov.in, call toll-free 1915, or WhatsApp 8800001915 with order details and invoice. NCH engages companies directly for pre-litigation resolution.",
+            "priority": "High"
+          },
+          {
+            "step": 4,
+            "title": "File Online Consumer Case on e-Daakhil",
+            "description": "If NCH resolution fails, file a formal complaint before the District Consumer Commission via edaakhil.nic.in without needing an advocate.",
+            "priority": "Medium"
+          }
+        ],
+        "authority": [
+          {
+            "name": "National Consumer Helpline (NCH)",
+            "role": "Central government pre-litigation conciliation service under Department of Consumer Affairs.",
+            "portal": "National Consumer Helpline Portal",
+            "url": "https://consumerhelpline.gov.in",
+            "contact_note": "Toll-Free: 1915 (Available 8 AM to 8 PM, all days except national holidays) or WhatsApp: 8800001915",
+            "how_to_approach": "Register online with order ID and invoice. NCH forwards the ticket directly to the company’s nodal officer."
+          },
+          {
+            "name": "Company / Platform Statutory Grievance Officer",
+            "role": "Mandatory compliance officer under Consumer Protection E-Commerce Rules 2020.",
+            "portal": "Platform Terms & Grievance Page",
+            "url": "",
+            "contact_note": "Details must be published on the seller’s terms page by law.",
+            "how_to_approach": "Send a formal email citing Order ID and statutory 48-hour response obligation."
+          },
+          {
+            "name": "District Consumer Disputes Redressal Commission (DCDRC) via e-Daakhil",
+            "role": "Quasi-judicial consumer court empowered to order full refund, compensation for mental agony, and litigation costs.",
+            "portal": "e-Daakhil Portal",
+            "url": "https://edaakhil.nic.in",
+            "contact_note": "Jurisdiction up to ₹50 Lakhs claim value.",
+            "how_to_approach": "File online petition through e-Daakhil without needing an advocate."
+          }
+        ],
+        "documents": [
+          {
+            "id": "doc-1",
+            "name": "Tax Invoice / Order Receipt",
+            "purpose": "Proves transaction date, seller identity, amount paid, and product specifications",
+            "is_essential": true
+          },
+          {
+            "id": "doc-2",
+            "name": "Photographs & Unboxing Video of Defect",
+            "purpose": "Unambiguous visual proof of defective condition upon delivery",
+            "is_essential": true
+          },
+          {
+            "id": "doc-3",
+            "name": "Customer Support Chat / Email Transcripts",
+            "purpose": "Demonstrates merchant refusal or failure to resolve within reasonable time",
+            "is_essential": true
+          },
+          {
+            "id": "doc-4",
+            "name": "Bank / UPI Debit Statement",
+            "purpose": "Confirms payment execution and deduction from consumer account",
+            "is_essential": false
+          }
+        ],
+        "escalation": [
+          {
+            "tier": 1,
+            "level": "Platform Grievance Officer",
+            "authority": "Platform Nodal Officer",
+            "condition": "Customer care refusal",
+            "next_step": "Formal email demanding resolution within 7 days"
+          },
+          {
+            "tier": 2,
+            "level": "Pre-Litigation Conciliation",
+            "authority": "National Consumer Helpline (1915 / consumerhelpline.gov.in)",
+            "condition": "Platform fails to respond or refuses refund",
+            "next_step": "Lodge NCH docket and track status"
+          },
+          {
+            "tier": 3,
+            "level": "Quasi-Judicial Consumer Court",
+            "authority": "District Consumer Commission via e-Daakhil",
+            "condition": "Company refuses conciliation through NCH",
+            "next_step": "Submit formal consumer petition under Section 35 on edaakhil.nic.in"
+          },
+          {
+            "tier": 4,
+            "level": "Appellate Forum",
+            "authority": "State Consumer Disputes Redressal Commission",
+            "condition": "Appeal against District Commission order",
+            "next_step": "File statutory appeal within 45 days"
+          }
+        ],
+        "sources": [
+          {
+            "title": "National Consumer Helpline Official Portal",
+            "organization": "Department of Consumer Affairs, Govt. of India",
+            "url": "https://consumerhelpline.gov.in",
+            "verified": true,
+            "category": "consumer"
+          },
+          {
+            "title": "e-Daakhil Electronic Consumer Court Filing",
+            "organization": "National Consumer Commission & NIC",
+            "url": "https://edaakhil.nic.in",
+            "verified": true,
+            "category": "consumer"
+          },
+          {
+            "title": "Consumer Protection Act, 2019 & Consumer Protection (E-Commerce) Rules, 2020",
+            "organization": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food & Public Distribution",
+            "url": "https://consumeraffairs.nic.in",
+            "verified": true,
+            "category": "consumer",
+            "sourceType": "Legislation"
+          }
+        ],
+        "warning": "Consumers can represent themselves before the Consumer Commission without hiring an expensive lawyer. Beware of fraudulent \"refund agents\" on social media; only use the official government portal consumerhelpline.gov.in.",
+        "guided_questions": [
+          {
+            "id": "state_selection",
+            "question": "Which Indian State or Union Territory does this issue relate to?",
+            "options": [
+              "Karnataka",
+              "Maharashtra",
+              "Delhi",
+              "Tamil Nadu",
+              "Uttar Pradesh",
+              "Other State"
+            ]
+          },
+          {
+            "id": "merchant_notified",
+            "question": "Have you already written to the platform’s designated Grievance Officer or Customer Support?",
+            "options": [
+              "Yes, customer support refused refund",
+              "Yes, but received no response for over 48 hours",
+              "Not yet, seeking guidance first"
+            ]
+          }
+        ],
+        "complaint_draft_template": "Date: 28 September 2026\n\nTo,\nThe Grievance Redressal Officer / Head of Office,\nNational Consumer Helpline (NCH),\nYour District, Your State\n\nSUBJECT: Formal Representation & Grievance Regarding Refusal of Refund or Replacement for Defective Product / E-Commerce Purchase\n\nRespected Sir/Madam,\n\nI am writing this formal representation to bring to your urgent attention a serious grievance that requires your immediate administrative intervention.\n\n1. BACKGROUND & STATEMENT OF FACTS:\nI bought a product online and the company refused my refund.\n\n2. STATUTORY RIGHTS & PROCEDURAL ENTITLEMENT:\nUnder the applicable rules and guidelines established by the Government of India and statutory authorities governing this matter, I am entitled to fair, time-bound consideration and redressal. The actions or omissions in question cause substantial hardship, mental agony, and disruption.\n\n3. PRESERVATION OF EVIDENCE:\nI have maintained all relevant supporting documents, receipts, communications, and evidence in safe custody, copies of which are attached herewith for your ready perusal.\n\n4. RELIEF SOUGHT:\nIn light of the above facts, I respectfully request your good office to:\n  a) Take immediate cognizance of this grievance;\n  b) Initiate appropriate inquiry and grant the necessary relief/documents/refund without further delay;\n  c) Issue a formal written acknowledgement and decision within 7 working days.\n\nKindly note that should this matter remain unaddressed within the stipulated time, I reserve the statutory right to escalate this complaint to the appropriate Appellate Authority, Ombudsman, and the District Legal Services Authority / Consumer Commission.\n\nThanking you,\n\nYours sincerely,\n\n___________________________\n[Complainant Name]\n[Address / Contact Number]\n[Email Address]\n\nEnclosures:\n1. Proof of Identity & Address\n2. Copy of Receipts / Communications\n3. Relevant Supporting Evidence",
+        "emergency_alert": null,
+        "knowledge_source": "Curated Official Statutory Knowledge Base",
+        "generated_by": "curated-statutory-engine"
+      },
+      "created_at": "2026-09-28T05:14:36.580Z"
+    },
+    {
+      "id": "guide_1790573446923_058z",
+      "conversation_id": "conv_1790573446899_0gkdj",
+      "category": "education",
+      "summary": "A student is experiencing persistent public humiliation, verbal abuse, or harassment by a teacher or faculty member. Indian educational and child rights frameworks strictly disallow mental harassment and corporal punishment.",
+      "data": {
+        "id": "edu_teacher_bullying",
+        "category": "education",
+        "keywords": [
+          "teacher",
+          "professor",
+          "faculty",
+          "bullying",
+          "humiliating",
+          "harassment",
+          "publicly humiliating",
+          "abusive",
+          "scolding",
+          "mental agony",
+          "school",
+          "student harassment",
+          "insulting"
+        ],
+        "title": "Bullying, Humiliation or Harassment by Faculty / Institutional Staff",
+        "summary": "A student is experiencing persistent public humiliation, verbal abuse, or harassment by a teacher or faculty member. Indian educational and child rights frameworks strictly disallow mental harassment and corporal punishment.",
+        "possible_rights_or_rules": [
+          {
+            "rule": "Section 17, Right of Children to Free and Compulsory Education (RTE) Act, 2009 (for school students)",
+            "description": "Explicitly bans physical punishment and mental harassment of school students, holding teachers liable for disciplinary action.",
+            "cautionary_note": "Applies primarily to school students under 18; university students are protected under UGC Student Grievance Regulations."
+          },
+          {
+            "rule": "UGC Regulations on Student Grievance Redressal & Anti-Harassment Guidelines",
+            "description": "Mandates that higher education institutions provide safe academic environments free from faculty harassment, victimisation, or discrimination.",
+            "cautionary_note": "Institutional rules protect students against academic retaliation when filing complaints in good faith."
+          }
+        ],
+        "immediate_actions": [
+          {
+            "step": 1,
+            "title": "Maintain an Incident Journal",
+            "description": "Carefully record dates, times, classroom locations, exact words used, and names of classmates present during each incident.",
+            "priority": "High"
+          },
+          {
+            "step": 2,
+            "title": "Involve Parents or Trusted Adult Guardian",
+            "description": "Share the incident journal with family or guardians so institutional correspondence carries guardian support, protecting against isolated retaliation.",
+            "priority": "High"
+          },
+          {
+            "step": 3,
+            "title": "Submit a Confidential Complaint to the Principal / Head of Department",
+            "description": "Submit a written, objective factual account requesting internal inquiry and an assurance of non-retaliation.",
+            "priority": "High"
+          },
+          {
+            "step": 4,
+            "title": "Approach District Education Office or Childline if Ignored",
+            "description": "If the school administration covers up the harassment, submit a petition to the District Education Officer (DEO) or contact Childline (1098).",
+            "priority": "Medium"
+          }
+        ],
+        "authority": [
+          {
+            "name": "School Principal / College Head of Department & Grievance Cell",
+            "role": "Internal institutional disciplinary authority obligated to ensure student safety.",
+            "portal": "School / College Administration",
+            "url": "",
+            "contact_note": "Submit physical letter jointly signed with parents/guardians and request receiving seal.",
+            "how_to_approach": "Request a meeting with the Principal or Head of Institution with a parent present."
+          },
+          {
+            "name": "District Education Officer (DEO) / University Ombudsperson",
+            "role": "Government administrative supervisor for schools and affiliated colleges in the district.",
+            "portal": "District Education Office / Collectorate Complex",
+            "url": "",
+            "contact_note": "Visit the District Collectorate / Education Department in your district.",
+            "how_to_approach": "File formal representation if the institution ignores written complaints."
+          },
+          {
+            "name": "National Commission for Protection of Child Rights (NCPCR) / e-BaalNidan",
+            "role": "Statutory national guardian of child rights (for students under 18).",
+            "portal": "e-BaalNidan Online Portal",
+            "url": "https://ebaalnidan.nic.in",
+            "contact_note": "Emergency Helpline: 1098 (Childline)",
+            "how_to_approach": "File online complaint via e-BaalNidan portal if physical or severe mental abuse occurs."
+          }
+        ],
+        "documents": [
+          {
+            "id": "doc-1",
+            "name": "Chronological Incident Log",
+            "purpose": "Documents exact dates, statements, and locations without reliance on memory alone",
+            "is_essential": true
+          },
+          {
+            "id": "doc-2",
+            "name": "Digital Evidence (Emails, Teams/Zoom chats, WhatsApp notices)",
+            "purpose": "Corroborates inappropriate or discriminatory remarks",
+            "is_essential": false
+          },
+          {
+            "id": "doc-3",
+            "name": "Witness Statements from Classmates",
+            "purpose": "Fellow student statements corroborating the occurrences",
+            "is_essential": false
+          },
+          {
+            "id": "doc-4",
+            "name": "Counseling or Medical Consultation Notes (if distress caused)",
+            "purpose": "Evidences psychological impact if disciplinary or compensatory relief is sought",
+            "is_essential": false
+          }
+        ],
+        "escalation": [
+          {
+            "tier": 1,
+            "level": "Institutional Inquiry",
+            "authority": "Head of Institution / Student Grievance Committee",
+            "condition": "Initial incident report filed",
+            "next_step": "Institutional inquiry and protection from retaliation"
+          },
+          {
+            "tier": 2,
+            "level": "District Supervisory Body",
+            "authority": "District Education Officer (DEO) / University Registrar",
+            "condition": "Institution fails to take action or faculty retaliates",
+            "next_step": "Written escalation requesting external departmental inspection"
+          },
+          {
+            "tier": 3,
+            "level": "Statutory Child / Human Rights Commission",
+            "authority": "NCPCR (e-BaalNidan) or State Child Rights Commission",
+            "condition": "Institutional cover-up or severe mental distress",
+            "next_step": "Lodge formal statutory complaint via e-BaalNidan / SCPCR"
+          },
+          {
+            "tier": 4,
+            "level": "Legal & Police Protection",
+            "authority": "Child Welfare Committee (CWC) / NALSA / Police",
+            "condition": "Criminal intimidation, battery, or sexual abuse",
+            "next_step": "Call 1098 or approach police for FIR under RTE/POCSO/BNS"
+          }
+        ],
+        "sources": [
+          {
+            "title": "NCPCR Guidelines on Eliminating Corporal Punishment & Harassment in Schools",
+            "organization": "National Commission for Protection of Child Rights",
+            "url": "https://ncpcr.gov.in",
+            "verified": true,
+            "category": "education"
+          },
+          {
+            "title": "RTE Act Section 17 - Prohibition of Physical Punishment and Mental Harassment",
+            "organization": "Ministry of Education",
+            "url": "https://www.education.gov.in",
+            "verified": true,
+            "category": "education"
+          },
+          {
+            "title": "UGC Public Notice on Non-Retention of Original Certificates by Higher Education Institutions",
+            "organization": "University Grants Commission (UGC), Ministry of Education",
+            "url": "https://www.ugc.gov.in",
+            "verified": true,
+            "category": "education",
+            "sourceType": "Statutory Body"
+          },
+          {
+            "title": "UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009",
+            "organization": "University Grants Commission (UGC)",
+            "url": "https://www.antiragging.in",
+            "verified": true,
+            "category": "education",
+            "sourceType": "Statutory Body"
+          }
+        ],
+        "warning": "If any harassment involves sexual overtones, physical abuse, or immediate danger of self-harm, immediately notify Childline (1098), National Emergency (112), Tele-MANAS (14416), or a trusted adult guardian.",
+        "guided_questions": [
+          {
+            "id": "state_selection",
+            "question": "Which Indian State or Union Territory does this issue relate to?",
+            "options": [
+              "Karnataka",
+              "Maharashtra",
+              "Delhi",
+              "Tamil Nadu",
+              "Uttar Pradesh",
+              "Other State"
+            ]
+          },
+          {
+            "id": "has_written_proof",
+            "question": "Do you have written proof of your request (e.g. an email, letter with receiving seal, or fee receipt)?",
+            "options": [
+              "Yes, I have written proof / email",
+              "No, requests were verbal only",
+              "I have fee receipts only"
+            ]
+          }
+        ],
+        "complaint_draft_template": "Date: 28 September 2026\n\nTo,\nThe Grievance Redressal Officer / Head of Office,\nSchool Principal / College Head of Department & Grievance Cell,\nYour District, Your State\n\nSUBJECT: Formal Representation & Grievance Regarding Bullying, Humiliation or Harassment by Faculty / Institutional Staff\n\nRespected Sir/Madam,\n\nI am writing this formal representation to bring to your urgent attention a serious grievance that requires your immediate administrative intervention.\n\n1. BACKGROUND & STATEMENT OF FACTS:\ni got molested in a bus\n\n2. STATUTORY RIGHTS & PROCEDURAL ENTITLEMENT:\nUnder the applicable rules and guidelines established by the Government of India and statutory authorities governing this matter, I am entitled to fair, time-bound consideration and redressal. The actions or omissions in question cause substantial hardship, mental agony, and disruption.\n\n3. PRESERVATION OF EVIDENCE:\nI have maintained all relevant supporting documents, receipts, communications, and evidence in safe custody, copies of which are attached herewith for your ready perusal.\n\n4. RELIEF SOUGHT:\nIn light of the above facts, I respectfully request your good office to:\n  a) Take immediate cognizance of this grievance;\n  b) Initiate appropriate inquiry and grant the necessary relief/documents/refund without further delay;\n  c) Issue a formal written acknowledgement and decision within 7 working days.\n\nKindly note that should this matter remain unaddressed within the stipulated time, I reserve the statutory right to escalate this complaint to the appropriate Appellate Authority, Ombudsman, and the District Legal Services Authority / Consumer Commission.\n\nThanking you,\n\nYours sincerely,\n\n___________________________\n[Complainant Name]\n[Address / Contact Number]\n[Email Address]\n\nEnclosures:\n1. Proof of Identity & Address\n2. Copy of Receipts / Communications\n3. Relevant Supporting Evidence",
+        "emergency_alert": null,
+        "knowledge_source": "Curated Official Statutory Knowledge Base",
+        "generated_by": "curated-statutory-engine"
+      },
+      "created_at": "2026-09-28T05:30:46.923Z"
     }
   ],
   "sources": [
