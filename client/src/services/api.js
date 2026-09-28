@@ -2,7 +2,7 @@
  * NyayaGuide AI - Frontend API Service Client
  */
 
-const API_BASE = '/api';
+const API_BASE =  'https://nyayaai-vmcx.onrender.com/api';
 
 export const api = {
   // Consultation
