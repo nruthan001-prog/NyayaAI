@@ -1,0 +1,391 @@
+{
+  "users": [
+    {
+      "id": "user-default",
+      "name": "Citizen User",
+      "email": "citizen@nyayaguide.in",
+      "created_at": "2026-09-24T13:17:33.339Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1790256537609_d071o",
+      "user_id": "user-default",
+      "title": "My college is refusing to return my original ce...",
+      "category": "other",
+      "state": "",
+      "district": "",
+      "is_saved": false,
+      "created_at": "2026-09-24T13:28:57.609Z",
+      "updated_at": "2026-09-24T13:28:57.629Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1790256537612_vvjz",
+      "conversation_id": "conv_1790256537609_d071o",
+      "role": "user",
+      "content": "My college is refusing to return my original certificates. What can I do?",
+      "created_at": "2026-09-24T13:28:57.612Z"
+    },
+    {
+      "id": "msg_1790256537629_gxa5",
+      "conversation_id": "conv_1790256537609_d071o",
+      "role": "assistant",
+      "content": "Higher Education Institutions (colleges, universities) frequently refuse to return original certificates upon withdrawal, graduation, or due to fee disputes. Under official UGC regulations, retaining original documents beyond instantaneous physical verification is explicitly prohibited.",
+      "created_at": "2026-09-24T13:28:57.629Z"
+    }
+  ],
+  "guidance": [
+    {
+      "id": "guide_1790256537620_8525",
+      "conversation_id": "conv_1790256537609_d071o",
+      "category": "education",
+      "summary": "Higher Education Institutions (colleges, universities) frequently refuse to return original certificates upon withdrawal, graduation, or due to fee disputes. Under official UGC regulations, retaining original documents beyond instantaneous physical verification is explicitly prohibited.",
+      "data": {
+        "id": "edu_college_certificates",
+        "category": "education",
+        "keywords": [
+          "certificate",
+          "certificates",
+          "original",
+          "marksheet",
+          "withholding",
+          "withheld",
+          "college",
+          "university",
+          "refusing to return",
+          "tc",
+          "transfer certificate",
+          "degree",
+          "documents held"
+        ],
+        "title": "Withholding of Original Academic Certificates by Higher Educational Institutions",
+        "summary": "Higher Education Institutions (colleges, universities) frequently refuse to return original certificates upon withdrawal, graduation, or due to fee disputes. Under official UGC regulations, retaining original documents beyond instantaneous physical verification is explicitly prohibited.",
+        "possible_rights_or_rules": [
+          {
+            "rule": "UGC Notification on Verification and Non-Retention of Original Certificates (2018)",
+            "description": "Mandates that HEIs can only physically verify original documents in the student’s presence and must return them immediately. Retention under any pretext (including fee dues) is impermissible.",
+            "cautionary_note": "Institutions may pursue legitimate dues through ordinary civil procedures, but cannot hold educational certificates hostage."
+          },
+          {
+            "rule": "UGC (Redress of Grievances of Students) Regulations, 2023",
+            "description": "Requires every college to have a Student Grievance Redressal Committee (SGRC) and universities to appoint an Ombudsperson for speedy resolution within 15 days.",
+            "cautionary_note": "Procedural timelines must be documented with formal postal or digital receipts."
+          }
+        ],
+        "immediate_actions": [
+          {
+            "step": 1,
+            "title": "Draft a Formal Written Representation",
+            "description": "Submit an application to the College Principal/Registrar demanding return of original certificates, citing UGC Regulations 2018. Obtain a stamped acknowledgement copy or send via Registered Post AD.",
+            "priority": "High"
+          },
+          {
+            "step": 2,
+            "title": "Preserve All Fee and Admission Receipts",
+            "description": "Compile payment receipts, no-objection certificates (NOCs) from lab/library, and admission letters demonstrating your bonafide status.",
+            "priority": "High"
+          },
+          {
+            "step": 3,
+            "title": "Lodge Grievance on UGC e-Samadhan",
+            "description": "If the institution fails to return documents within 7 working days, register a formal complaint on the official UGC e-Samadhan Portal (samadhaan.ugc.ac.in).",
+            "priority": "Medium"
+          },
+          {
+            "step": 4,
+            "title": "File Consumer or Legal Notice",
+            "description": "If urgently needed for employment or higher education, issue an advocate legal notice or file before District Consumer Commission for deficiency in service.",
+            "priority": "Medium"
+          }
+        ],
+        "authority": [
+          {
+            "name": "College Principal / Registrar / Student Grievance Redressal Committee (SGRC)",
+            "role": "Primary institutional authority responsible for custodian records and immediate release.",
+            "portal": "College Administrative Office",
+            "url": "",
+            "contact_note": "Submit physical letter with receiving seal or email Registrar with CC to Vice Chancellor.",
+            "how_to_approach": "First point of contact. Allow 7 working days for response."
+          },
+          {
+            "name": "University Ombudsperson / Vice-Chancellor Office",
+            "role": "Appellate university authority overseeing affiliated colleges.",
+            "portal": "Affiliating State / Central University Portal",
+            "url": "",
+            "contact_note": "Contact details available on official University website under Student Grievance Cell.",
+            "how_to_approach": "Approach if the college Principal ignores the initial representation."
+          },
+          {
+            "name": "University Grants Commission (UGC) e-Samadhan",
+            "role": "National statutory regulator with authority to revoke institutional funding or accreditation.",
+            "portal": "UGC e-Samadhan Portal",
+            "url": "https://samadhaan.ugc.ac.in",
+            "contact_note": "Toll Free: 1800-111-656",
+            "how_to_approach": "Submit online complaint attaching copy of the college refusal and fee receipts."
+          }
+        ],
+        "documents": [
+          {
+            "id": "doc-1",
+            "name": "Original Admission / Fee Receipts",
+            "purpose": "Proves bonafide enrolment and current fee clearance status",
+            "is_essential": true
+          },
+          {
+            "id": "doc-2",
+            "name": "Formal Written Request Letter with Receiving Seal",
+            "purpose": "Constitutes legal proof of demand and date of institutional refusal",
+            "is_essential": true
+          },
+          {
+            "id": "doc-3",
+            "name": "Copy of Relevant UGC Circular on Certificate Retention",
+            "purpose": "Attached to notice to alert college administration of statutory violation",
+            "is_essential": false
+          },
+          {
+            "id": "doc-4",
+            "name": "Offer Letter or Higher Study Proof (if applicable)",
+            "purpose": "Demonstrates immediate irreparable injury/urgency if legal injunction is sought",
+            "is_essential": false
+          }
+        ],
+        "escalation": [
+          {
+            "tier": 1,
+            "level": "Institutional Authority",
+            "authority": "College Principal / SGRC Committee",
+            "condition": "Initial application submitted",
+            "next_step": "Wait 7 days for release of certificates"
+          },
+          {
+            "tier": 2,
+            "level": "University Oversight",
+            "authority": "University Ombudsperson & Registrar",
+            "condition": "No response or refusal after 7 days",
+            "next_step": "Submit formal grievance petition with acknowledgement copy"
+          },
+          {
+            "tier": 3,
+            "level": "Statutory Regulator",
+            "authority": "UGC e-Samadhan & State Higher Education Dept",
+            "condition": "University/College fails to comply within 15 days",
+            "next_step": "File regulatory complaint on UGC e-Samadhan"
+          },
+          {
+            "tier": 4,
+            "level": "Legal Remedy",
+            "authority": "District Consumer Forum or High Court Writ",
+            "condition": "Urgent career jeopardy or bad-faith detention",
+            "next_step": "Engage legal counsel or NALSA/DLSA for emergency writ petition (Mandamus)"
+          }
+        ],
+        "sources": [
+          {
+            "title": "UGC Public Notice on Non-Retention of Original Certificates",
+            "organization": "University Grants Commission (UGC)",
+            "url": "https://samadhaan.ugc.ac.in",
+            "verified": true,
+            "category": "education"
+          },
+          {
+            "title": "UGC Student Grievance Redressal Regulations",
+            "organization": "Ministry of Education, Govt. of India",
+            "url": "https://www.ugc.gov.in",
+            "verified": true,
+            "category": "education"
+          }
+        ],
+        "warning": "NyayaGuide AI provides general legal and civic information. If withholding prevents timely university enrollment or joining employment, consult a qualified advocate promptly to evaluate filing an emergency Writ Petition (Mandamus) before the High Court.",
+        "guided_questions": [
+          {
+            "id": "state_selection",
+            "question": "Which Indian State or Union Territory does this issue relate to?",
+            "options": [
+              "Karnataka",
+              "Maharashtra",
+              "Delhi",
+              "Tamil Nadu",
+              "Uttar Pradesh",
+              "Other State"
+            ]
+          },
+          {
+            "id": "has_written_proof",
+            "question": "Do you have written proof of your request (e.g. an email, letter with receiving seal, or fee receipt)?",
+            "options": [
+              "Yes, I have written proof / email",
+              "No, requests were verbal only",
+              "I have fee receipts only"
+            ]
+          }
+        ],
+        "complaint_draft_template": "Date: 24 September 2026\n\nTo,\nThe Grievance Redressal Officer / Head of Office,\nCollege Principal / Registrar / Student Grievance Redressal Committee (SGRC),\nYour District, Your State\n\nSUBJECT: Formal Representation & Grievance Regarding Withholding of Original Academic Certificates by Higher Educational Institutions\n\nRespected Sir/Madam,\n\nI am writing this formal representation to bring to your urgent attention a serious grievance that requires your immediate administrative intervention.\n\n1. BACKGROUND & STATEMENT OF FACTS:\nMy college is refusing to return my original certificates. What can I do?\n\n2. STATUTORY RIGHTS & PROCEDURAL ENTITLEMENT:\nUnder the applicable rules and guidelines established by the Government of India and statutory authorities governing this matter, I am entitled to fair, time-bound consideration and redressal. The actions or omissions in question cause substantial hardship, mental agony, and disruption.\n\n3. PRESERVATION OF EVIDENCE:\nI have maintained all relevant supporting documents, receipts, communications, and evidence in safe custody, copies of which are attached herewith for your ready perusal.\n\n4. RELIEF SOUGHT:\nIn light of the above facts, I respectfully request your good office to:\n  a) Take immediate cognizance of this grievance;\n  b) Initiate appropriate inquiry and grant the necessary relief/documents/refund without further delay;\n  c) Issue a formal written acknowledgement and decision within 7 working days.\n\nKindly note that should this matter remain unaddressed within the stipulated time, I reserve the statutory right to escalate this complaint to the appropriate Appellate Authority, Ombudsman, and the District Legal Services Authority / Consumer Commission.\n\nThanking you,\n\nYours sincerely,\n\n___________________________\n[Complainant Name]\n[Address / Contact Number]\n[Email Address]\n\nEnclosures:\n1. Proof of Identity & Address\n2. Copy of Receipts / Communications\n3. Relevant Supporting Evidence",
+        "emergency_alert": null,
+        "generated_by": "verified-rag-engine"
+      },
+      "created_at": "2026-09-24T13:28:57.620Z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-ugc-certificates",
+      "category": "education",
+      "title": "UGC Public Notice on Non-Retention of Original Certificates by Higher Education Institutions",
+      "organization": "University Grants Commission (UGC), Ministry of Education, Govt. of India",
+      "url": "https://www.ugc.gov.in",
+      "portalName": "UGC e-Samadhan Portal",
+      "portalUrl": "https://samadhaan.ugc.ac.in",
+      "verified": true,
+      "lastChecked": "2025-01-15",
+      "summary": "Prohibits HEIs from retaining original academic certificates (10th/12th/Degree) beyond verification."
+    },
+    {
+      "id": "src-ugc-antiragging",
+      "category": "education",
+      "title": "UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009",
+      "organization": "University Grants Commission (UGC)",
+      "url": "https://www.antiragging.in",
+      "portalName": "National Anti-Ragging Portal & 24x7 Helpline (1800-180-5522)",
+      "portalUrl": "https://www.antiragging.in",
+      "verified": true,
+      "lastChecked": "2025-01-15",
+      "summary": "Mandates zero-tolerance anti-ragging committees, helpline, and criminal action for harassment."
+    },
+    {
+      "id": "src-consumer-act-2019",
+      "category": "consumer",
+      "title": "Consumer Protection Act, 2019 & E-Commerce Rules, 2020",
+      "organization": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food & Public Distribution",
+      "url": "https://consumeraffairs.nic.in",
+      "portalName": "National Consumer Helpline (NCH)",
+      "portalUrl": "https://consumerhelpline.gov.in",
+      "verified": true,
+      "lastChecked": "2025-02-01",
+      "summary": "Enforces rights against defective goods, unfair trade practices, and provides e-Daakhil filing."
+    },
+    {
+      "id": "src-edaakhil",
+      "category": "consumer",
+      "title": "e-Daakhil Portal for Online Consumer Court Case Filing",
+      "organization": "National Consumer Disputes Redressal Commission (NCDRC) & NIC",
+      "url": "https://edaakhil.nic.in",
+      "portalName": "e-Daakhil Consumer Court System",
+      "portalUrl": "https://edaakhil.nic.in",
+      "verified": true,
+      "lastChecked": "2025-02-01",
+      "summary": "Enables Indian consumers to file disputes before District, State, and National Consumer Commissions online."
+    },
+    {
+      "id": "src-cybercrime-portal",
+      "category": "cyber",
+      "title": "National Cyber Crime Reporting Portal (NCRP) & IT Act 2000",
+      "organization": "Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs",
+      "url": "https://cybercrime.gov.in",
+      "portalName": "National Cyber Crime Reporting Portal",
+      "portalUrl": "https://cybercrime.gov.in",
+      "verified": true,
+      "lastChecked": "2025-02-10",
+      "summary": "Centralized government portal for reporting cyber harassment, online threats, financial frauds, and child sexual abuse material."
+    },
+    {
+      "id": "src-cpgrams",
+      "category": "government",
+      "title": "Centralized Public Grievance Redress and Monitoring System (CPGRAMS)",
+      "organization": "Department of Administrative Reforms and Public Grievances (DARPG), Govt. of India",
+      "url": "https://pgportal.gov.in",
+      "portalName": "CPGRAMS Citizen Portal",
+      "portalUrl": "https://pgportal.gov.in",
+      "verified": true,
+      "lastChecked": "2025-01-20",
+      "summary": "Citizen grievance redressal portal connecting over 80+ central ministries and state departments."
+    },
+    {
+      "id": "src-rti-online",
+      "category": "rti",
+      "title": "Right to Information Act, 2005 Online Portal",
+      "organization": "Department of Personnel and Training (DoPT), Govt. of India",
+      "url": "https://rtionline.gov.in",
+      "portalName": "RTI Online India",
+      "portalUrl": "https://rtionline.gov.in",
+      "verified": true,
+      "lastChecked": "2025-01-10",
+      "summary": "Enables citizens to file RTI applications and first appeals to central public authorities online."
+    },
+    {
+      "id": "src-nalsa-legalaid",
+      "category": "other",
+      "title": "Legal Services Authorities Act, 1987 & Free Legal Aid Scheme",
+      "organization": "National Legal Services Authority (NALSA), Supreme Court of India",
+      "url": "https://nalsa.gov.in",
+      "portalName": "NALSA Citizen Portal",
+      "portalUrl": "https://nalsa.gov.in",
+      "verified": true,
+      "lastChecked": "2025-02-05",
+      "summary": "Guarantees free legal aid, legal representation, and Lok Adalat dispute settlement to eligible citizens."
+    },
+    {
+      "id": "src-rbi-cms",
+      "category": "banking",
+      "title": "Reserve Bank - Integrated Ombudsman Scheme (RB-IOS), 2021",
+      "organization": "Reserve Bank of India (RBI)",
+      "url": "https://www.rbi.org.in",
+      "portalName": "RBI Complaint Management System (CMS)",
+      "portalUrl": "https://cms.rbi.org.in",
+      "verified": true,
+      "lastChecked": "2025-02-12",
+      "summary": "Single window grievance redressal for bank, NBFC, and payment system complaints with 14448 support."
+    },
+    {
+      "id": "src-model-tenancy",
+      "category": "housing",
+      "title": "Model Tenancy Act & State Rent Authority Guidelines",
+      "organization": "Ministry of Housing and Urban Affairs (MoHUA), Govt. of India",
+      "url": "https://mohua.gov.in",
+      "portalName": "State Rent Authority & Conciliation System",
+      "portalUrl": "https://mohua.gov.in",
+      "verified": true,
+      "lastChecked": "2025-01-18",
+      "summary": "Regulates tenancy agreements, caps security deposits, and sets clear protocols for deposit refund and rent courts."
+    },
+    {
+      "id": "src-posh-act",
+      "category": "women_child",
+      "title": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (PoSH)",
+      "organization": "Ministry of Women and Child Development (MWCD), Govt. of India",
+      "url": "https://wcd.nic.in",
+      "portalName": "SHe-Box (Sexual Harassment Electronic Box)",
+      "portalUrl": "https://shebox.wcd.gov.in",
+      "verified": true,
+      "lastChecked": "2025-02-01",
+      "summary": "Mandatory Internal Committee (IC) in every establishment, grievance lodging, and inquiry protocols."
+    },
+    {
+      "id": "src-senior-citizens-act",
+      "category": "senior_citizens",
+      "title": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+      "organization": "Ministry of Social Justice and Empowerment, Govt. of India",
+      "url": "https://socialjustice.gov.in",
+      "portalName": "Elderline (14567) Senior Citizen Portal",
+      "portalUrl": "https://elderline.dosje.gov.in",
+      "verified": true,
+      "lastChecked": "2025-01-25",
+      "summary": "Empowers senior citizens to claim monthly maintenance and apply before SDM Tribunal to cancel gift deeds in case of neglect."
+    },
+    {
+      "id": "src-epfo-grievance",
+      "category": "employment",
+      "title": "Employees Provident Fund & Miscellaneous Provisions Act, 1952",
+      "organization": "Employees’ Provident Fund Organisation (EPFO), Ministry of Labour",
+      "url": "https://www.epfindia.gov.in",
+      "portalName": "EPFiGMS Grievance Management System",
+      "portalUrl": "https://epfigms.gov.in",
+      "verified": true,
+      "lastChecked": "2025-02-15",
+      "summary": "Online registration of EPF settlement, transfer, pension, and employer non-deposit complaints."
+    }
+  ],
+  "saved_items": []
+}
